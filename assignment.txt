@@ -1,0 +1,77 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+A data type defines the type of value that a variable can hold, and it determines what kind of operations can be performed on that data. Data types are essential because they help programmers understand how to handle data efficiently and appropriately. They help in defining how much memory is required and what kind of data manipulation operations are possible.
+
+In programming languages, data types are broadly classified into two categories:
+
+Primitive Data Types
+Non-Primitive Data Types
+1. Primitive Data Types
+Primitive data types are the basic types of data built into programming languages. They represent single values and are predefined by the language itself. These types are the simplest form of data storage and manipulation.
+
+Examples of Primitive Data Types:
+Integer (int)
+
+Represents whole numbers, both positive and negative.
+Example: 5, -10, 0
+Floating-Point (float, double)
+
+Represents numbers that require decimal points.
+Example: 3.14, -27.8, 0.001
+Character (char)
+
+Represents a single character, such as letters, digits, or symbols.
+Example: 'A', 'b', '3', '$'
+Boolean (bool)
+
+Represents a logical value, either True or False.
+Example: True, False
+String (string) (in some languages like Python, JavaScript)
+
+Represents a sequence of characters, typically used for text.
+Example: "Hello", "1234", "Data"
+Void
+
+Represents the absence of any value or no return type in functions (used primarily in function declarations).
+Example: void functionName() { } in C or C++.
+
+
+2. Non-Primitive Data Types
+Non-primitive data types are more complex types that are derived from primitive types. These types can store multiple values, often structured in more complex ways. They are also referred to as reference data types because they store references to the memory locations of the actual data.
+
+Examples of Non-Primitive Data Types:
+Array
+
+Represents a collection of elements of the same type, stored in a contiguous block of memory.
+Example: int[] numbers = {1, 2, 3, 4, 5};
+List
+
+A collection of elements (often with dynamic size), where the elements can be of different types in some languages.
+Example: [1, 2.5, "Hello", True] in Python
+Object (Class)
+
+Represents a real-world entity. An object is an instance of a class and can have attributes (variables) and methods (functions).
+Example:
+python
+Copy code
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+my_car = Car("Toyota", "Corolla")
+String (in some languages, treated as a non-primitive type)
+
+While strings are often treated as primitive types in languages like Python and JavaScript, they are more like objects in languages like Java or C++.
+Example: "Hello World"
+Set
+
+A collection of unique elements without any specific order.
+Example: {1, 2, 3} in Python
+Map (Dictionary)
+
+A collection of key-value pairs. Often referred to as associative arrays or hash maps in other languages.
+Example: {"name": "John", "age": 25} in Python
+Tuple
+
+A collection of elements, like a list, but immutable (cannot be changed once created).
+Example: (1, 2, 3) in Python
